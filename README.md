@@ -18,3 +18,9 @@ Example:
 ```bash
 pipenv run python manage.py makemigrations 
 ```
+
+Mariana Diaz
+Nathalia Quiroga
+
+Imagenes del json obtenido al consultar la medida con id=2
+

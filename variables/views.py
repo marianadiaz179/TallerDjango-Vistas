@@ -25,11 +25,16 @@ def variables_view(request):
 @csrf_exempt
 def variable_view(request, pk):
     if request.method == 'GET':
-        variable_dto = vl.get_variable(pk)
-        variable = serializers.serialize('json', [variable_dto,])
-        return HttpResponse(variable, 'application/json')
+        variable = vl.get_variable(pk)
+        variable_dto = serializers.serialize('json', [variable_dto,])
+        return HttpResponse(variable_dto, 'application/json')
 
     if request.method == 'PUT':
         variable_dto = vl.update_variable(pk, json.loads(request.body))
+        variable = serializers.serialize('json', [variable_dto,])
+        return HttpResponse(variable, 'application/json')
+    
+    if request.method == 'DELETE':
+        variable_dto = vl.delete_variable(pk)
         variable = serializers.serialize('json', [variable_dto,])
         return HttpResponse(variable, 'application/json')
