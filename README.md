@@ -23,8 +23,16 @@ Mariana Diaz
 Nathalia Quiroga
 
 Imágen  del json obtenido al consultar la medida con id=2
-![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/measurement%20id2.png)
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Imagenes_consultas/measurement%20id2.png)
 
 Imagen del json obtenido al consultar todas las medidas
-![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Measurements.png)
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Imagenes_consultas/Measurements.png)
 
+Imagen del json obtenido al crear una medida - Neiva
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Imagenes_consultas/creacion_measurement.png)
+
+Modificacion de la temperatura de la medida - Neiva
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Imagenes_consultas/Actualizacion_measurement.png)
+
+Eliminar la temperatura de la medida - Neiva
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Imagenes_consultas/delete_measurement.png)
