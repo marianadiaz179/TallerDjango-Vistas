@@ -22,5 +22,9 @@ pipenv run python manage.py makemigrations
 Mariana Diaz
 Nathalia Quiroga
 
-Imagenes del json obtenido al consultar la medida con id=2
+Imágen  del json obtenido al consultar la medida con id=2
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/measurement%20id2.png)
+
+Imagen del json obtenido al consultar todas las medidas
+![alt text](https://github.com/marianadiaz179/TallerDjango-Vistas/blob/master/Measurements.png)
 
